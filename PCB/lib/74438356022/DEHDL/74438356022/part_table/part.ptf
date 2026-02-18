@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74438356022'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "74438356022" (!) = "", "WE-MAPI_4020", "Other", "710-74438356022", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D", "WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m", "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf", "2 mm"
+END_PART
+
+END.

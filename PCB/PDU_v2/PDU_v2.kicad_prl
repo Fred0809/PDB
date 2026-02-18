@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ffff55ed",
+    "visible_layers": "00000000_00000000_55555555_f75555a5",
     "zone_display_mode": 0
   },
   "git": {

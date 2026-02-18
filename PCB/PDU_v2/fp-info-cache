@@ -1,4 +1,4 @@
-27222560426637789
+27227874631831089
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98664,6 +98664,27 @@ Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+SF2923HC30C2
+SF-2923HC30C-2-2
+Fuse
+0
+2
+2
+SamacSys_Parts
+SOT95P280X110-6N
+DDC0006A
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+WE-MAPI_4020
+WE-MAPI_4020
+Inductor
+0
+2
+2
 SamacSys_Parts
 XT60PWM
 XT60PW-M-2

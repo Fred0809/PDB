@@ -1,0 +1,16 @@
+.74438356022 :1 ;WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m
+WE-MAPI_4020
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 74438356022
+~!Mouser Part Number (710-74438356022)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (74438356022)
+~!Link Datasheet (https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf)
+~!Height (2mm)
+~!3D_Model (74438356022)
+"74438356022"
+1.1!U 2.1!U 

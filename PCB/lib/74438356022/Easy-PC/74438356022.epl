@@ -1,0 +1,78 @@
+SamacSys ECAD Model
+531973/1899823/2.50/2/2/Inductor
+
+DESIGNSPARK_INTERMEDIATE_ASCII
+
+(asciiHeader
+	(fileUnits MM)
+)
+(library Library_1
+	(padStyleDef "r370_98"
+		(holeDiam 0)
+		(padShape (layerNumRef 1) (padShapeType Rect)  (shapeWidth 0.98) (shapeHeight 3.7))
+		(padShape (layerNumRef 16) (padShapeType Ellipse)  (shapeWidth 0) (shapeHeight 0))
+	)
+	(textStyleDef "Default"
+		(font
+			(fontType Stroke)
+			(fontFace "Helvetica")
+			(fontHeight 50 mils)
+			(strokeWidth 5 mils)
+		)
+	)
+	(patternDef "WE-MAPI_4020" (originalName "WE-MAPI_4020")
+		(multiLayer
+			(pad (padNum 1) (padStyleRef r370_98) (pt -1.185, 0) (rotation 0))
+			(pad (padNum 2) (padStyleRef r370_98) (pt 1.185, 0) (rotation 0))
+		)
+		(layerContents (layerNumRef 18)
+			(attr "RefDes" "RefDes" (pt -2.15, 3.6232) (textStyleRef "Default") (isVisible True))
+		)
+		(layerContents (layerNumRef 18)
+			(line (pt -2.05 -2.05) (pt -2.05 2.05) (width 0.2))
+		)
+		(layerContents (layerNumRef 18)
+			(line (pt -2.05 2.05) (pt 2.05 2.05) (width 0.2))
+		)
+		(layerContents (layerNumRef 18)
+			(line (pt 2.05 2.05) (pt 2.05 -2.05) (width 0.2))
+		)
+		(layerContents (layerNumRef 18)
+			(line (pt 2.05 -2.05) (pt -2.05 -2.05) (width 0.2))
+		)
+	)
+	(symbolDef "74438356022" (originalName "74438356022")
+
+		(pin (pinNum 1) (pt 0 mils 0 mils) (rotation 0) (pinLength 200 mils) (pinDisplay (dispPinName false)) (pinName (text (pt 0 mils -35 mils) (rotation 0]) (justify "UpperLeft") (textStyleRef "Default"))
+		))
+		(pin (pinNum 2) (pt 800 mils 0 mils) (rotation 180) (pinLength 200 mils) (pinDisplay (dispPinName false)) (pinName (text (pt 800 mils -35 mils) (rotation 0]) (justify "UpperRight") (textStyleRef "Default"))
+		))
+		(arc (pt 250 mils -2 mils) (radius 50 mils) (startAngle 177.7) (sweepAngle -175.4) (width 6 mils))
+		(arc (pt 350 mils -2 mils) (radius 50 mils) (startAngle 177.7) (sweepAngle -175.4) (width 6 mils))
+		(arc (pt 450 mils -2 mils) (radius 50 mils) (startAngle 177.7) (sweepAngle -175.4) (width 6 mils))
+		(arc (pt 550 mils -2 mils) (radius 50 mils) (startAngle 177.7) (sweepAngle -175.4) (width 6 mils))
+		(attr "RefDes" "RefDes" (pt 650 mils 250 mils) (justify Left) (isVisible True) (textStyleRef "Default"))
+
+	)
+	(compDef "74438356022" (originalName "74438356022") (compHeader (numPins 2) (numParts 1) (refDesPrefix L)
+		)
+		(compPin "1" (pinName "1") (partNum 1) (symPinNum 1) (gateEq 0) (pinEq 0) (pinType Bidirectional))
+		(compPin "2" (pinName "2") (partNum 1) (symPinNum 2) (gateEq 0) (pinEq 0) (pinType Bidirectional))
+		(attachedSymbol (partNum 1) (altType Normal) (symbolName "74438356022"))
+		(attachedPattern (patternNum 1) (patternName "WE-MAPI_4020")
+			(numPads 2)
+			(padPinMap
+				(padNum 1) (compPinRef "1")
+				(padNum 2) (compPinRef "2")
+			)
+		)
+		(attr "Mouser Part Number" "710-74438356022")
+		(attr "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D")
+		(attr "Manufacturer_Name" "Wurth Elektronik")
+		(attr "Manufacturer_Part_Number" "74438356022")
+		(attr "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m")
+		(attr "Datasheet Link" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf")
+		(attr "Height" "2 mm")
+	)
+
+)
