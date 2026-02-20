@@ -5,6 +5,201 @@
 	(uuid "c52946bb-cc4c-423a-97e3-a4f3695b34a4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74438356022_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 3.302 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74438356022"
+				(at 3.302 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "WE-MAPI_4020"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-74438356022"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74438356022"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "74438356022_1_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 5.715 0.6103)
+					(end 6.35 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 6.985 0.6103)
+					(end 7.62 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.255 0.6103)
+					(end 8.89 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 9.525 0.6103)
+					(end 10.16 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Current:INA240A2D"
 			(pin_names
 				(offset 0.127)
@@ -3453,6 +3648,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LMR51635YDDCR_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 8.128 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LMR51635YDDCR"
+				(at 8.128 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X110-6N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1744945652901"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators SIMPLE SWITCHER synchronous buck converter with 4.3V-to-60V, 3.5A and low quiescent current"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LMR51635YDDCR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR51635YDDCR?qs=efUn273yAhf6vdsp91a46w%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LMR51635YDDCR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LMR51635YDDCR_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 90)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3560,429 +3979,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:74438356022"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 16.51 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "74438356022"
-				(at 16.51 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "WE-MAPI_4020"
-				(at 16.51 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf"
-				(at 16.51 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2"
-				(at 16.51 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-74438356022"
-				(at 16.51 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D"
-				(at 16.51 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 16.51 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "74438356022"
-				(at 16.51 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "74438356022_1_1"
-				(arc
-					(start 5.08 0)
-					(mid 5.715 0.6103)
-					(end 6.35 0)
-					(stroke
-						(width 0.1778)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 0)
-					(mid 6.985 0.6103)
-					(end 7.62 0)
-					(stroke
-						(width 0.1778)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.6259 0.0098)
-					(mid 8.2609 0.6201)
-					(end 8.8959 0.0098)
-					(stroke
-						(width 0.1778)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 8.9003 0.0192)
-					(mid 9.5353 0.6295)
-					(end 10.1703 0.0192)
-					(stroke
-						(width 0.1778)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:LMR51635YDDCR"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "LMR51635YDDCR"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X110-6N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1744945652901"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switching Voltage Regulators SIMPLE SWITCHER synchronous buck converter with 4.3V-to-60V, 3.5A and low quiescent current"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-LMR51635YDDCR"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR51635YDDCR?qs=efUn273yAhf6vdsp91a46w%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LMR51635YDDCR"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "LMR51635YDDCR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -10.16 90)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 2.54)
-					(name "CB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:SF-2923HC30C-2"
+		(symbol "SF-2923HC30C-2_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3993,7 +3990,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at 13.97 6.35 0)
+				(at 2.032 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4002,7 +3999,7 @@
 				)
 			)
 			(property "Value" "SF-2923HC30C-2"
-				(at 13.97 3.81 0)
+				(at 2.032 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4020,7 +4017,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/54/bourns_01152019_SF-2923HC_datasheet-1522608.pdf"
+			(property "Datasheet" ""
 				(at 13.97 -196.19 0)
 				(effects
 					(font
@@ -4031,7 +4028,7 @@
 				)
 			)
 			(property "Description" "Surface Mount Fuses"
-				(at 0 0 0)
+				(at 0.254 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4049,7 +4046,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Bourns"
+			(property "Mouser Part Number" "652-SF-2923HC30C-2"
 				(at 13.97 -496.19 0)
 				(effects
 					(font
@@ -4059,7 +4056,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SF-2923HC30C-2"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-2923HC30C-2?qs=l7cgNqFNU1jPRdQNVRC1Sg%3D%3D"
 				(at 13.97 -596.19 0)
 				(effects
 					(font
@@ -4069,7 +4066,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "652-SF-2923HC30C-2"
+			(property "Manufacturer_Name" "Bourns"
 				(at 13.97 -696.19 0)
 				(effects
 					(font
@@ -4079,7 +4076,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-2923HC30C-2?qs=l7cgNqFNU1jPRdQNVRC1Sg%3D%3D"
+			(property "Manufacturer_Part_Number" "SF-2923HC30C-2"
 				(at 13.97 -796.19 0)
 				(effects
 					(font
@@ -4089,30 +4086,10 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "SF-2923HC30C-2"
-				(at 13.97 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sf-2923hc30c-2/bourns"
-				(at 13.97 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SF-2923HC30C-2_1_1"
+			(symbol "SF-2923HC30C-2_1_1_1"
 				(rectangle
-					(start 5.08 0.8181)
-					(end 10.1599 -0.8261)
+					(start 5.08 0.9234)
+					(end 10.16 -0.8683)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4173,11 +4150,14 @@
 			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:XT60PW-M"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
+			(property "Reference" "PS"
+				(at 13.208 12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4186,7 +4166,7 @@
 				)
 			)
 			(property "Value" "XT60PW-M"
-				(at 19.05 5.08 0)
+				(at 10.16 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4214,7 +4194,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4233,7 +4213,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Amass"
+			(property "Manufacturer_Name" "Changzhou Amass Elec"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -4295,8 +4275,8 @@
 			)
 			(symbol "XT60PW-M_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -10.16)
+					(start 10.795 6.985)
+					(end 17.78 -4.445)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4306,9 +4286,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4324,9 +4304,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4342,8 +4322,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
+					(at 20.32 0 180)
+					(length 2.54)
 					(name "MH1"
 						(effects
 							(font
@@ -4351,7 +4331,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4360,8 +4340,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
+					(at 20.32 -2.54 180)
+					(length 2.54)
 					(name "MH2"
 						(effects
 							(font
@@ -4369,7 +4349,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4947,6 +4927,17 @@
 			)
 		)
 		(uuid "fa529acf-7c70-484e-a8ed-f3d21df0762d")
+	)
+	(text "Wurth 74438356022"
+		(exclude_from_sim no)
+		(at 99.314 25.654 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "ff825914-e6d2-41c7-9791-67a32ec3b421")
 	)
 	(text "Smaller MLCC per left/right"
 		(exclude_from_sim no)
@@ -5935,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 127 43.18)
+			(xy 125.73 41.91) (xy 125.73 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7835,7 +7826,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 127 43.18)
+			(xy 119.38 43.18) (xy 125.73 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8735,125 +8726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:74438356022")
-		(at 87.63 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c72ca88-a84b-4df8-a2b5-450b34f49dcc")
-		(property "Reference" "L1"
-			(at 95.25 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2"
-			(at 95.2551 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WE-MAPI_4020"
-			(at 104.14 127.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf"
-			(at 104.14 227.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m"
-			(at 87.63 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2"
-			(at 104.14 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-74438356022"
-			(at 104.14 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D"
-			(at 104.14 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 104.14 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74438356022"
-			(at 104.14 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5fbe318b-2682-4729-969f-7ef43493e70c")
-		)
-		(pin "1"
-			(uuid "dd2810f5-ab81-464a-aafd-c63ce4a1a264")
-		)
-		(instances
-			(project ""
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 191.77 46.99 0)
 		(unit 1)
@@ -8915,152 +8787,6 @@
 			(project "PDU_v2"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 158.75 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ebb797d-0856-41e9-bd31-ee627843a2b1")
-		(property "Reference" "J6"
-			(at 147.32 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 147.32 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 139.7 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 139.7 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 158.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 139.7 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 139.7 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 139.7 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 139.7 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 139.7 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 139.7 973.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 139.7 1073.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5bb7b840-012f-42f7-9f38-8c2e637e9bad")
-		)
-		(pin "4"
-			(uuid "b7475fee-122c-45e4-bd71-4a215f8f2334")
-		)
-		(pin "3"
-			(uuid "072bdc5b-9c7a-4b0a-ad7c-f206c2ae4d4d")
-		)
-		(pin "1"
-			(uuid "1b79822c-7af7-467b-9c5d-3ecc37c26230")
-		)
-		(instances
-			(project "PDU_v2"
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9612,152 +9338,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 132.08 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "209b3721-a4dc-4830-960e-207751fe9325")
-		(property "Reference" "J5"
-			(at 120.65 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 120.65 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 113.03 191.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 113.03 291.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 113.03 491.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 113.03 591.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 113.03 691.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 113.03 791.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 113.03 891.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 113.03 991.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 113.03 1091.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a94e45c-fbd3-4020-baf8-b9a375123a1f")
-		)
-		(pin "4"
-			(uuid "1a796a98-c583-49bc-ac29-4c0126610003")
-		)
-		(pin "3"
-			(uuid "8d290ca8-8381-4b26-b23f-5e08dee13da7")
-		)
-		(pin "1"
-			(uuid "1174c68a-98a4-40c6-97c0-2a270745e114")
-		)
-		(instances
-			(project "PDU_v2"
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 106.68 36.83 0)
 		(unit 1)
@@ -9960,146 +9540,6 @@
 			(project "PDU_v1"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:SF-2923HC30C-2")
-		(at 44.45 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "299adc9c-ca34-4cc6-bf6b-0152b888816a")
-		(property "Reference" "F1"
-			(at 51.816 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SF-2923HC30C-2"
-			(at 53.34 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SF2923HC30C2"
-			(at 58.42 127.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/bourns_01152019_SF-2923HC_datasheet-1522608.pdf"
-			(at 58.42 227.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Fuses"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.2"
-			(at 58.42 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 58.42 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SF-2923HC30C-2"
-			(at 58.42 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-SF-2923HC30C-2"
-			(at 58.42 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-2923HC30C-2?qs=l7cgNqFNU1jPRdQNVRC1Sg%3D%3D"
-			(at 58.42 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SF-2923HC30C-2"
-			(at 58.42 927.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sf-2923hc30c-2/bourns"
-			(at 58.42 1027.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38f7dcc2-26e2-47ef-afcd-e2aefcfe6dcb")
-		)
-		(pin "2"
-			(uuid "f8dcc60f-a164-4c12-ae87-1971b71df83e")
-		)
-		(instances
-			(project ""
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11058,16 +10498,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 158.75 96.52 0)
-		(mirror y)
+		(at 19.05 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "484be4fb-fe92-4d8e-897f-d7b24db3a256")
-		(property "Reference" "J7"
-			(at 147.32 89.916 0)
+		(fields_autoplaced yes)
+		(uuid "48d00810-0da7-4591-9e85-93e7e47e28b1")
+		(property "Reference" "PS1"
+			(at 33.3375 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +10515,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 147.32 92.456 0)
+			(at 33.3375 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,7 +10523,7 @@
 			)
 		)
 		(property "Footprint" "XT60PWM"
-			(at 139.7 191.44 0)
+			(at 38.1 134.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +10533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 139.7 291.44 0)
+			(at 38.1 234.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11102,8 +10542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 158.75 96.52 0)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 19.05 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +10552,7 @@
 			)
 		)
 		(property "Height" "8.4"
-			(at 139.7 491.44 0)
+			(at 38.1 434.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,8 +10561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Amass"
-			(at 139.7 591.44 0)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 38.1 534.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +10572,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 139.7 691.44 0)
+			(at 38.1 634.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +10582,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 139.7 791.44 0)
+			(at 38.1 734.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +10592,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 139.7 891.44 0)
+			(at 38.1 834.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,7 +10602,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 139.7 991.44 0)
+			(at 38.1 934.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +10612,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 139.7 1091.44 0)
+			(at 38.1 1034.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,22 +10621,22 @@
 				(hide yes)
 			)
 		)
+		(pin "MH1"
+			(uuid "fbc7436a-20c0-43cd-abee-3683486ccb35")
+		)
 		(pin "2"
-			(uuid "af3f0a94-b9e2-4907-b2b1-49edb29234ad")
-		)
-		(pin "4"
-			(uuid "08a378d0-a2bf-458c-a6eb-deaea14dba05")
-		)
-		(pin "3"
-			(uuid "ba48f566-411a-40f1-8943-821574cec556")
+			(uuid "c0887517-b822-4c95-9c43-72a916d82cda")
 		)
 		(pin "1"
-			(uuid "997538be-b798-4177-b00b-ab70937c2091")
+			(uuid "54c0ff3b-de98-42dc-89f2-a9288a635c59")
+		)
+		(pin "MH2"
+			(uuid "7befd610-fca6-4162-98d2-798996be570f")
 		)
 		(instances
-			(project "PDU_v2"
+			(project ""
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J7")
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -11747,153 +11187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 39.37 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "582bdf0e-f93d-4c8a-8a8e-508534c9f2bc")
-		(property "Reference" "J1"
-			(at 27.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 27.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 20.32 129.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 20.32 229.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 20.32 429.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 20.32 529.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 20.32 629.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 20.32 729.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 20.32 829.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 20.32 929.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 20.32 1029.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74542f7e-1a7a-4158-9bb6-b4ff9d3a04e8")
-		)
-		(pin "4"
-			(uuid "20e00e3f-9db7-4336-b303-fe7aa93eed5e")
-		)
-		(pin "3"
-			(uuid "b618c4e7-ae56-4b23-9fe3-13e66a2980fb")
-		)
-		(pin "1"
-			(uuid "3996df73-b263-423c-a2c4-afe5ef9efa6e")
-		)
-		(instances
-			(project ""
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_3")
 		(lib_id "Device:C")
 		(at 44.45 96.52 180)
@@ -12166,6 +11459,152 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 85.09 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bda4d84-d1a2-4fbc-aa8f-7191d28c0e3e")
+		(property "Reference" "PS3"
+			(at 99.314 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 99.3775 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 104.14 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 104.14 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 104.14 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 104.14 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 104.14 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 104.14 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 104.14 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 996.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1096.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "6729c434-4407-48ef-b7e0-a839f6855e1f")
+		)
+		(pin "2"
+			(uuid "19c64af5-59e9-4423-a753-0f1776753a54")
+		)
+		(pin "1"
+			(uuid "c69ea748-4622-4e0d-a446-2c55ceb03eca")
+		)
+		(pin "MH2"
+			(uuid "5593aaf1-0ce0-47f4-8194-fb6f333850df")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "PS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 41.91 180)
 		(unit 1)
@@ -12229,6 +11668,126 @@
 			(project "PDU_v1"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74438356022_1")
+		(lib_id "SamacSys_Parts:74438356022")
+		(at 87.63 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d853956-3b84-4e77-a204-204d2bc8723e")
+		(property "Reference" "L1"
+			(at 95.25 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2u2"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE-MAPI_4020"
+			(at 104.14 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf"
+			(at 104.14 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 2.2 H +/-20%; IR = 6.2 A; Isat = 7.9 A; RDC = 35 m"
+			(at 87.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 104.14 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-74438356022"
+			(at 104.14 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356022?qs=E1W0Z3PUSadBx7Ht0918yA%3D%3D"
+			(at 104.14 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 104.14 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74438356022"
+			(at 104.14 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c237729-820d-44f5-8bb9-3b78dfa276e2")
+		)
+		(pin "2"
+			(uuid "9d210527-52d2-4cef-8fd5-9b847c1f8f9b")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -12980,6 +12539,139 @@
 		)
 	)
 	(symbol
+		(lib_name "LMR51635YDDCR_1")
+		(lib_id "SamacSys_Parts:LMR51635YDDCR")
+		(at 118.11 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f55a23-3257-410b-9e17-6361b6df6f00")
+		(property "Reference" "IC1"
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR51635YFDDCR"
+			(at 130.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X110-6N"
+			(at 139.7 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1744945652901"
+			(at 139.7 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators SIMPLE SWITCHER synchronous buck converter with 4.3V-to-60V, 3.5A and low quiescent current"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 139.7 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LMR51635YDDCR"
+			(at 139.7 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR51635YDDCR?qs=efUn273yAhf6vdsp91a46w%3D%3D"
+			(at 139.7 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.7 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LMR51635YDDCR"
+			(at 139.7 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4703fdf-3923-4efc-b3a7-84dde9c78edb")
+		)
+		(pin "4"
+			(uuid "342943af-61e5-4ccb-a7d1-6e96808013a1")
+		)
+		(pin "6"
+			(uuid "ee349274-ac04-4f88-86e4-d8c067557ad7")
+		)
+		(pin "2"
+			(uuid "68d2629c-76ec-4564-9884-09ffad16cca6")
+		)
+		(pin "5"
+			(uuid "42102d67-9634-4de3-9bc5-b8418c248736")
+		)
+		(pin "1"
+			(uuid "fdf1a762-07ea-45b5-9ba8-06972eab6d81")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 120.65 180)
 		(unit 1)
@@ -13334,138 +13026,6 @@
 			(project "PDU_v2"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:LMR51635YDDCR")
-		(at 118.11 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fa1c032-6543-43c9-a5e3-6a755d8e7623")
-		(property "Reference" "IC1"
-			(at 130.81 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR51635YFDDCR"
-			(at 130.81 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X110-6N"
-			(at 139.7 126.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1744945652901"
-			(at 139.7 226.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators SIMPLE SWITCHER synchronous buck converter with 4.3V-to-60V, 3.5A and low quiescent current"
-			(at 118.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 139.7 426.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-LMR51635YDDCR"
-			(at 139.7 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR51635YDDCR?qs=efUn273yAhf6vdsp91a46w%3D%3D"
-			(at 139.7 626.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 139.7 726.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LMR51635YDDCR"
-			(at 139.7 826.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76df5d2e-69f3-46b8-80f6-ecba468b2847")
-		)
-		(pin "3"
-			(uuid "7d38676d-67f4-4764-bef0-e5b4cf8b0b01")
-		)
-		(pin "5"
-			(uuid "b73c7476-a0dc-437a-ad92-041690a47ff8")
-		)
-		(pin "4"
-			(uuid "b35fa496-985f-4e93-b8ec-8625d994a0bb")
-		)
-		(pin "1"
-			(uuid "1ae4081d-2bea-4611-a811-c48d4d280d62")
-		)
-		(pin "6"
-			(uuid "37ca641d-f9b9-4318-ac8c-f37fcb587881")
-		)
-		(instances
-			(project ""
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -13873,152 +13433,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 105.41 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8edb3f50-a67d-422a-a14b-b709893497b7")
-		(property "Reference" "J3"
-			(at 93.98 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 93.98 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 86.36 191.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 86.36 291.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 86.36 491.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 86.36 591.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 86.36 691.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 86.36 791.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 86.36 891.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 86.36 991.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 86.36 1091.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e0b0dcc7-6a23-4698-b8c7-e8e636ff0455")
-		)
-		(pin "4"
-			(uuid "03e94b47-498a-42d5-ba1f-e074f3bfb687")
-		)
-		(pin "3"
-			(uuid "abf0d18d-4d2e-490c-80fa-0a52705d8a4b")
-		)
-		(pin "1"
-			(uuid "180a4906-738d-47bf-9335-51717200828d")
-		)
-		(instances
-			(project "PDU_v2"
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 127 0)
 		(unit 1)
@@ -14357,152 +13771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 105.41 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a778f31a-77c9-45bd-92aa-b076fcb34acd")
-		(property "Reference" "J2"
-			(at 93.98 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 93.98 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 86.36 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 86.36 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 105.41 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 86.36 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 86.36 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 86.36 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 86.36 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 86.36 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 86.36 973.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 86.36 1073.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "865e92b8-bc93-4d94-8567-2f5e6241abfc")
-		)
-		(pin "4"
-			(uuid "e94049b5-a0b8-4fd2-b29d-dfe0b79e7a94")
-		)
-		(pin "3"
-			(uuid "fa0ed3b4-427e-4e5b-b085-b2895cacab1c")
-		)
-		(pin "1"
-			(uuid "8c69b27d-7aec-430c-aee4-57602890af23")
-		)
-		(instances
-			(project "PDU_v2"
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 119.38 36.83 0)
 		(unit 1)
@@ -14641,6 +13909,152 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 111.76 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad9e998f-0572-4a05-8cb6-86fd1c8fe711")
+		(property "Reference" "PS4"
+			(at 125.984 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 126.0475 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 130.81 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 130.81 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 130.81 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 130.81 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 130.81 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 130.81 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 130.81 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 130.81 978.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 130.81 1078.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "d9b66cd0-195b-49f8-b425-cf8fd5e261e5")
+		)
+		(pin "2"
+			(uuid "fa170c09-b4d5-48a5-829a-1cf3f302975d")
+		)
+		(pin "1"
+			(uuid "54880e8d-4e79-4dcb-92ad-49c1c189e226")
+		)
+		(pin "MH2"
+			(uuid "303dc616-1d19-4c1a-9f19-3de9df632d10")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "PS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 39.37 0)
 		(unit 1)
@@ -14704,6 +14118,152 @@
 			(project "PDU_v2"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 138.43 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b09e0429-c463-46dc-bc12-0ee7917e3347")
+		(property "Reference" "PS6"
+			(at 152.654 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 152.7175 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 157.48 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 157.48 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 157.48 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 157.48 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 157.48 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 157.48 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 157.48 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 157.48 978.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 1078.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "33635f70-4e90-467b-8efc-071b9f05235b")
+		)
+		(pin "2"
+			(uuid "2ee94aac-dbba-4d55-978e-183abbfd76de")
+		)
+		(pin "1"
+			(uuid "a0a4b1a2-f4b5-4018-9f70-286acc947eab")
+		)
+		(pin "MH2"
+			(uuid "ff090db9-a6ff-4cd8-9c59-90c387e57c80")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "PS6")
 					(unit 1)
 				)
 			)
@@ -14777,6 +14337,273 @@
 		)
 	)
 	(symbol
+		(lib_name "SF-2923HC30C-2_1")
+		(lib_id "SamacSys_Parts:SF-2923HC30C-2")
+		(at 44.45 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8d63bdc-54c8-4bd2-ab94-d99dbdf04fa6")
+		(property "Reference" "F1"
+			(at 52.07 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SF-2923HC30C-2"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SF2923HC30C2"
+			(at 58.42 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Fuses"
+			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.2"
+			(at 58.42 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-SF-2923HC30C-2"
+			(at 58.42 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-2923HC30C-2?qs=l7cgNqFNU1jPRdQNVRC1Sg%3D%3D"
+			(at 58.42 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 58.42 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-2923HC30C-2"
+			(at 58.42 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2374df8-0165-422d-9d0a-b2eb36e4c29d")
+		)
+		(pin "1"
+			(uuid "fbe9d537-eb3c-4879-89f9-818da8545bff")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 85.09 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bad6583e-a636-4a89-8fd5-e46eb9788331")
+		(property "Reference" "PS2"
+			(at 99.314 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 99.3775 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 104.14 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 104.14 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 104.14 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 104.14 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 104.14 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 104.14 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 104.14 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 978.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1078.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "6a502308-4752-4379-9983-809546bbb118")
+		)
+		(pin "2"
+			(uuid "aa83f0cf-e727-4cd5-9a82-342f0806f56e")
+		)
+		(pin "1"
+			(uuid "de0d56b2-9183-4c03-83b3-0bd182911742")
+		)
+		(pin "MH2"
+			(uuid "17f18db4-9ecb-4748-b6ae-b10e2d711c7f")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "PS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 63.5 0)
 		(unit 1)
@@ -14838,6 +14665,152 @@
 			(project "PDU_v1"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 138.43 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3161eaa-2062-4f00-bee7-9f6c76739a7c")
+		(property "Reference" "PS7"
+			(at 152.654 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 152.7175 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 157.48 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 157.48 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 157.48 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 157.48 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 157.48 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 157.48 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 157.48 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 157.48 996.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 1096.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "cff471eb-fdb9-46df-995b-66fdf35b5434")
+		)
+		(pin "2"
+			(uuid "9afff4b5-e884-4448-b38a-0b881c78476a")
+		)
+		(pin "1"
+			(uuid "b0f7797a-3a11-402a-a1b0-8ef6a7e54f73")
+		)
+		(pin "MH2"
+			(uuid "84e8fffe-3262-430f-893f-efc4fd498d6c")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "PS7")
 					(unit 1)
 				)
 			)
@@ -15863,152 +15836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 132.08 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e40a8748-d7de-4f40-9eab-c1baf8cb122d")
-		(property "Reference" "J4"
-			(at 120.65 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 120.65 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 113.03 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 113.03 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 113.03 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 113.03 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 113.03 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 113.03 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 113.03 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 113.03 973.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 113.03 1073.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a65ff2c7-ce46-4164-867c-76c1ceb76cc7")
-		)
-		(pin "4"
-			(uuid "8d535ca3-80e7-4121-bd49-a293abcf938b")
-		)
-		(pin "3"
-			(uuid "75a47193-c87a-4553-be16-f3c4fbab0d83")
-		)
-		(pin "1"
-			(uuid "e8249119-8f53-42c5-8245-4721252c1e08")
-		)
-		(instances
-			(project "PDU_v2"
-				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 88.9 29.21 0)
 		(unit 1)
@@ -16557,6 +16384,152 @@
 			(project "PDU_v2"
 				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 111.76 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f47d5de2-7ace-4ffd-a88c-a57c06372be7")
+		(property "Reference" "PS5"
+			(at 125.984 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 126.0475 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 130.81 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 130.81 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 130.81 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Changzhou Amass Elec"
+			(at 130.81 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 130.81 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 130.81 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 130.81 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 130.81 996.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 130.81 1096.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "6dc6cfa0-667c-4f90-8748-e63d1f1b594a")
+		)
+		(pin "2"
+			(uuid "dc3a7386-2f83-4549-9671-95f070e51871")
+		)
+		(pin "1"
+			(uuid "6b11f72e-cdcb-4b7a-8b7b-a93f79e78ff7")
+		)
+		(pin "MH2"
+			(uuid "9713167b-b944-45a3-b8dc-432502892cbb")
+		)
+		(instances
+			(project "PDU_v2"
+				(path "/c52946bb-cc4c-423a-97e3-a4f3695b34a4"
+					(reference "PS5")
 					(unit 1)
 				)
 			)
